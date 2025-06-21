@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Posts on Drifting Bits</title>
+    <link>https://driftingbits.github.io/posts/</link>
+    <description>Recent content in Posts on Drifting Bits</description>
+    <generator>Hugo -- 0.147.8</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 08 Jun 2025 12:54:20 +0200</lastBuildDate>
+    <atom:link href="https://driftingbits.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Rubik&#39;s Cube Solver</title>
+      <link>https://driftingbits.github.io/posts/rubiks-cube-solver/</link>
+      <pubDate>Sun, 08 Jun 2025 12:54:20 +0200</pubDate>
+      <guid>https://driftingbits.github.io/posts/rubiks-cube-solver/</guid>
+      <description>&lt;p&gt;In this post, we look at the process of building a Rubik&amp;rsquo;s cube solver. It uses affordable parts in combination with 3D printing and is a good beginner to intermediate project in case you want to build something similar.&lt;/p&gt;
+&lt;h2 id=&#34;project-goals&#34;&gt;Project goals&lt;/h2&gt;
+&lt;p&gt;I noticed I have been spending quite a bit of time online looking at projects done by other people. Sometimes this can give you inspiration, but it is also possible to get stuck doomscrolling. So, I decided to pick up a new project that I can build from start to finish in a few days whilst learning more about 3D modeling.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
