@@ -4,10 +4,17 @@
     <title>Drifting Bits</title>
     <link>https://driftingbits.github.io/</link>
     <description>Recent content on Drifting Bits</description>
-    <generator>Hugo -- 0.150.1</generator>
+    <generator>Hugo -- 0.152.2</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 18 Aug 2025 18:42:00 +0200</lastBuildDate>
+    <lastBuildDate>Mon, 29 Dec 2025 16:47:26 +0100</lastBuildDate>
     <atom:link href="https://driftingbits.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Scale Model House</title>
+      <link>https://driftingbits.github.io/posts/scale_model_house/</link>
+      <pubDate>Mon, 29 Dec 2025 16:47:26 +0100</pubDate>
+      <guid>https://driftingbits.github.io/posts/scale_model_house/</guid>
+      <description>&lt;p&gt;Today&amp;rsquo;s quick post will give you reproducible steps to create a scale model of your home or apartment. I was inspired to create a few scale models as some of my  friends have bought an apartment this year and I was looking for unique secret Santa gifts. Having a scale model with scale furniture helps visualize the space and helps you create a floor plan before you get the keys to your new house or apartment.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Robot Tracks</title>
       <link>https://driftingbits.github.io/posts/robot-tracks/</link>
