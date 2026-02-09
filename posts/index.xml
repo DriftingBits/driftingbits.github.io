@@ -6,8 +6,16 @@
     <description>Recent content in Posts on Drifting Bits</description>
     <generator>Hugo -- 0.152.2</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 29 Dec 2025 16:47:26 +0100</lastBuildDate>
+    <lastBuildDate>Sat, 24 Jan 2026 11:02:02 +0100</lastBuildDate>
     <atom:link href="https://driftingbits.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Home Server Setup</title>
+      <link>https://driftingbits.github.io/posts/efficient-homeserver-setup/</link>
+      <pubDate>Sat, 24 Jan 2026 11:02:02 +0100</pubDate>
+      <guid>https://driftingbits.github.io/posts/efficient-homeserver-setup/</guid>
+      <description>&lt;p&gt;There is no cloud, it&amp;rsquo;s just someone else&amp;rsquo;s computer.&lt;/p&gt;
+&lt;p&gt;If you store your data online for free, your data is the product. Big companies are mining your data for targeted advertising, and more recently, to improve their AI models. In this post I will show you how I setup up my home server and how you can do the same to take back control over your data. Do remember though that by taking control of your data, you will also need to take care of your own backups to keep it save.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Scale Model House</title>
       <link>https://driftingbits.github.io/posts/scale_model_house/</link>
