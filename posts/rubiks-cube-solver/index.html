@@ -10,9 +10,9 @@
 <meta name="description" content="In this post, we look at the process of building a Rubik&rsquo;s cube solver. It uses affordable parts in combination with 3D printing and is a good beginner to intermediate project in case you want to build something similar.
 Project goals
 I noticed I have been spending quite a bit of time online looking at projects done by other people. Sometimes this can give you inspiration, but it is also possible to get stuck doomscrolling. So, I decided to pick up a new project that I can build from start to finish in a few days whilst learning more about 3D modeling.">
-<meta name="author" content="">
+<meta name="author" content="Bryan">
 <link rel="canonical" href="https://driftingbits.github.io/posts/rubiks-cube-solver/">
-<link crossorigin="anonymous" href="/assets/css/stylesheet.745e9c4c6da72291a3b21349c2d0664a52f8c8e5ffbc4614b0e872e40097bdc0.css" integrity="sha256-dF6cTG2nIpGjshNJwtBmSlL4yOX/vEYUsOhy5ACXvcA=" rel="preload stylesheet" as="style">
+<link crossorigin="anonymous" href="/assets/css/stylesheet.5965374b926f7dae1cae936f5d8d5d00c818566a669ca36cdc3398dfd6a61398.css" integrity="sha256-WWU3S5Jvfa4crpNvXY1dAMgYVmpmnKNs3DOY39amE5g=" rel="preload stylesheet" as="style">
 <link rel="icon" href="https://driftingbits.github.io/favicon.ico">
 <link rel="icon" type="image/png" sizes="16x16" href="https://driftingbits.github.io/favicon-16x16.png">
 <link rel="icon" type="image/png" sizes="32x32" href="https://driftingbits.github.io/favicon-32x32.png">
@@ -111,6 +111,10 @@ I noticed I have been spending quite a bit of time online looking at projects do
   "inLanguage": "en",
   "image":"https://driftingbits.github.io/static/rubiks_cube_solver/images/cover.jpg","datePublished": "2025-06-08T12:54:20+02:00",
   "dateModified": "2025-06-08T12:54:20+02:00",
+  "author":{
+    "@type": "Person",
+    "name": "Bryan"
+  },
   "mainEntityOfPage": {
     "@type": "WebPage",
     "@id": "https://driftingbits.github.io/posts/rubiks-cube-solver/"
@@ -188,7 +192,7 @@ I noticed I have been spending quite a bit of time online looking at projects do
     <h1 class="post-title entry-hint-parent">
       Rubik&#39;s Cube Solver
     </h1>
-    <div class="post-meta"><span title='2025-06-08 12:54:20 +0200 CEST'>June 8, 2025</span>&nbsp;·&nbsp;12 min
+    <div class="post-meta"><span title='2025-06-08 12:54:20 +0200 CEST'>June 8, 2025</span>&nbsp;·&nbsp;12 min&nbsp;·&nbsp;Bryan
 
 </div>
   </header> 
@@ -249,9 +253,9 @@ I noticed I have been spending quite a bit of time online looking at projects do
 <p><img alt="The connections between the Raspberry Pi and the servo driver." loading="lazy" src="/static/rubiks_cube_solver/images/connections.svg"></p>
 <p>The easiest way to move a servo motor is shown in the following Python snippet. It will rotate a servo motor 90 degrees and back again, like shown in the gif. As we are using a Raspberry Pi running a full Linux operating system, it is possible to use Python instead of C or C++. A Python library to work with the servo driver shield is provided by Adafruit to get us started as quickly as possible. Notice how we initialize the ServoKit with 16 channels, which will give us an array of 16 servos we can individually control. And all that with only four wires connected from the Raspberry Pi to the servo driver!</p>
 <p><img alt="The front face of the cube being rotated." loading="lazy" src="/static/rubiks_cube_solver/images/rotate_face.gif#center"></p>
-<div class="highlight"><div style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">
+<div class="highlight"><div style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;">
 <table style="border-spacing:0;padding:0;margin:0;border:0;"><tr><td style="vertical-align:top;padding:0;margin:0;border:0;">
-<pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 1
+<pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 1
 </span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 2
 </span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 3
 </span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 4
@@ -273,7 +277,7 @@ I noticed I have been spending quite a bit of time online looking at projects do
 </span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">20
 </span></code></pre></td>
 <td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
-<pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#75715e"># Sweep a single servo motor back and forth</span>
+<pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#75715e"># Sweep a single servo motor back and forth</span>
 </span></span><span style="display:flex;"><span><span style="color:#f92672">from</span> adafruit_servokit <span style="color:#f92672">import</span> ServoKit
 </span></span><span style="display:flex;"><span><span style="color:#f92672">import</span> time
 </span></span><span style="display:flex;"><span>
@@ -300,16 +304,16 @@ I noticed I have been spending quite a bit of time online looking at projects do
 <p>To remove the sleep statements, we can take inspiration from video games. Video games and graphics are usually updated with 30, 60 or even more frames per second (FPS). If you press the left arrow key to move, your character doesn&rsquo;t just teleport, but usually move smoothly to the left instead. This is exactly the same we want to achieve with our servo motors.</p>
 <p>We can create a loop and update our desired servo position every iteration. If you have a specific rotation speed in mind, you can use the time an iteration takes as a delta time and multiply it by the speed to get the distance it should move. After the servo has reached it&rsquo;s desired position you stop updating it or set the speed to zero. In the video game industry, the time between iterations is also known as the frame time. In case a refresh rate of 60 FPS is targeted, this would result in 0.0167 seconds to compute all the updates. Any slower and you will start to see frame stuttering or &rsquo;lag&rsquo;, and the same is true with our servos.</p>
 <p>In the case of my Rubik&rsquo;s cube solver, however, I don&rsquo;t really care if there are any sleep statements as I don&rsquo;t expect any kind of user input. The program will first calculate a solution and then start turning the faces until the cube is solved. If you are fine with a similar approach, you can look at the snippet below. I created a wrapper class that keeps track of the servo position and if it is moving. If it is not moving, we consider it idle or done.</p>
-<div class="highlight"><div style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">
+<div class="highlight"><div style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;">
 <table style="border-spacing:0;padding:0;margin:0;border:0;"><tr><td style="vertical-align:top;padding:0;margin:0;border:0;">
-<pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">1
+<pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">1
 </span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">2
 </span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">3
 </span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">4
 </span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">5
 </span></code></pre></td>
 <td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
-<pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#75715e"># Rotate clockwise</span>
+<pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#75715e"># Rotate clockwise</span>
 </span></span><span style="display:flex;"><span>rotation_servo<span style="color:#f92672">.</span>rotate_clockwise()
 </span></span><span style="display:flex;"><span><span style="color:#66d9ef">while</span> <span style="color:#f92672">not</span> rotation_servo<span style="color:#f92672">.</span>is_idle():
 </span></span><span style="display:flex;"><span>    rotation_servo<span style="color:#f92672">.</span>update()
@@ -318,9 +322,9 @@ I noticed I have been spending quite a bit of time online looking at projects do
 </div>
 </div><p>If we write some more of these blocks, we can rotate any servos in any sequence we want in order to solve the cube. Take for example the snippet and gif below. It shows a method used to tilt the cube forwards to be able to rotate the top face. It consists of a sequence of steps. First, we need to ensure the gripper servos are rotated correctly before the tilting operation. To do this, we need to move an arm away from the cube, then rotate it, and then move the arm back in. Then, we can tilt the cube. Finally, we need to ensure the servos are back in the correct starting orientation.</p>
 <p><img alt="The cube being tilted forward by the servos." loading="lazy" src="/static/rubiks_cube_solver/images/tilt_forward.gif#center"></p>
-<div class="highlight"><div style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">
+<div class="highlight"><div style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;">
 <table style="border-spacing:0;padding:0;margin:0;border:0;"><tr><td style="vertical-align:top;padding:0;margin:0;border:0;">
-<pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 1
+<pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 1
 </span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 2
 </span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 3
 </span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 4
@@ -393,7 +397,7 @@ I noticed I have been spending quite a bit of time online looking at projects do
 </span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">71
 </span></code></pre></td>
 <td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
-<pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#66d9ef">def</span> <span style="color:#a6e22e">tilt_forward</span>():
+<pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#66d9ef">def</span> <span style="color:#a6e22e">tilt_forward</span>():
 </span></span><span style="display:flex;"><span>    <span style="color:#75715e"># Set up sides for rotation</span>
 </span></span><span style="display:flex;"><span>    <span style="color:#75715e"># Move back</span>
 </span></span><span style="display:flex;"><span>    linServoB<span style="color:#f92672">.</span>move_backward()

@@ -4,10 +4,19 @@
     <title>Drifting Bits</title>
     <link>https://driftingbits.github.io/</link>
     <description>Recent content on Drifting Bits</description>
-    <generator>Hugo -- 0.152.2</generator>
+    <generator>Hugo -- 0.164.0</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 24 Jan 2026 11:02:02 +0100</lastBuildDate>
+    <lastBuildDate>Sun, 28 Jun 2026 09:52:26 +0100</lastBuildDate>
     <atom:link href="https://driftingbits.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>BR08 Model Train (O-scale)</title>
+      <link>https://driftingbits.github.io/posts/scale-model-train/</link>
+      <pubDate>Sun, 28 Jun 2026 09:52:26 +0100</pubDate>
+      <guid>https://driftingbits.github.io/posts/scale-model-train/</guid>
+      <description>&lt;p&gt;In this post, I will share the 3D model for an O-scale model of a BR08 shunting locomotive that can be printed and made to run on battery power.&lt;/p&gt;
+&lt;h2 id=&#34;some-history&#34;&gt;Some history&lt;/h2&gt;
+&lt;p&gt;The British Rail Class 08 is a class of diesel-electric shunting locomotives introduced in the early fifties and used to be a common sight at major stations and freight yards. Shunting locomotives are specialized low-speed, high traction engines to move and rearrange carriages and wagons to build a complete train. They replaced earlier steam models because the diesel-electric shunters did not need any warm-up time, did not waste fuel when idling, had lower maintenance overhead, led to cleaner environments and were operable by one person. Pictured below is the BR08 911, which can be seen in the National Railway Museum in York.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Home Server Setup</title>
       <link>https://driftingbits.github.io/posts/efficient-homeserver-setup/</link>
